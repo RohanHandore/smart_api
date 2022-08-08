@@ -12,9 +12,9 @@ def angelbrok_login():
     try:
         global feedToken, client_code, obj, password
         
-        obj = SmartConnect(api_key="9DV1aUFA")
-        client_code = "IIRA44259"
-        password = "Rohan8830@#"
+        obj = SmartConnect(api_key="")
+        client_code = ""
+        password = "@#"
 
 
         data = obj.generateSession(client_code,password)
